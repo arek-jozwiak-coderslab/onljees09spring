@@ -6,7 +6,8 @@ import pl.coderslab.beans.HelloWorld;
 
 public class StartApplication {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(AppConfig.class);
 
 //        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
 
