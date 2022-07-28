@@ -29,7 +29,7 @@ public class RandomController {
         log.debug("max {} ", max);
         log.debug("min {} ", min);
         Random random = new Random();
-        int i = random.nextInt(max - min) + min;
+        int i = random.nextInt(max - min + 1) + min;
 
         return "" + i;
     }
