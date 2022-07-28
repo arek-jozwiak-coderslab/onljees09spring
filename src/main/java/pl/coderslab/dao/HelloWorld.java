@@ -1,10 +1,11 @@
-package pl.coderslab.beans;
+package pl.coderslab.dao;
 
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
 
+@Component
 public class HelloWorld {
 
     public HelloWorld() {
