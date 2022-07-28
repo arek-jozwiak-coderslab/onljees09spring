@@ -16,6 +16,11 @@ public class HomeController {
 //            = LoggerFactory.getLogger(HomeController.class);
 
 
+    @RequestMapping("/")
+    public String home() {
+        return "hello";
+    }
+
     @RequestMapping("/start")
     public String showStart() {
         int a = 10;
